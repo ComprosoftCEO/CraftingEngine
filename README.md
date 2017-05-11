@@ -2,11 +2,17 @@
 Simple terminal crafting game in Visual Basic
 
 ---
+<br>
+<br>
 
-CraftingEngine is a terminal game based on [Little Alchemy](https://littlealchemy.com/) by Jakob Koziol.
+## Overview:
 
+CraftingEngine is a terminal game based on [Little Alchemy](https://littlealchemy.com/) by Jakob Koziol. Programmed in Visual Basic, CrafitngEngine is open source and can be easily modified to add other recipes or features.
+<br>
+<br>
+<br>
 ## How to Play:
----
+
 The goal of the crafting engine is to discover all 560 elements by combining two elements together. The game starts with four elements unlocked:
 * Air
 * Earth
@@ -14,9 +20,11 @@ The goal of the crafting engine is to discover all 560 elements by combining two
 * Water
 
 Combine two elements together by typing: **\<Element 1\> + \<Element 2\>**, where \<Element\> is the text name of the element (including spaces). *Be sure to type a plus sign.*
-
+<br>
+<br>
+<br>
 ## Commands
----
+
 * __\<Element\>__ - Typing the name of an element will list all crafting recipes for that element.
 
 * __List [L]__ - List all unlocked elements. 
@@ -29,15 +37,34 @@ Combine two elements together by typing: **\<Element 1\> + \<Element 2\>**, wher
 
 * __Help__ - Display in-game help screen
 
+<br>
+<br>
+<br>
 ## Game Progress
----
+
 * __Save__ - Save game progress to a text password. _The password is copied onto the clipboard._
 
 * __Load__ - Load the game progress from a text password. _An invalid password will reset game progress._
 
 * __Reset__ - Reset all game progress.
 
+<br>
+<br>
+<br>
 ## Modifying Recipes
 ---
 All crafting recipes come directly from the game Little Alchemy, but can be easily modified by editing the file CraftingRecepies.txt. Recipes have the following format:
-Name,Color:E1+E2;E1+E2;
+* Name,Color:E1+E2;E1+E2;
+
+The element color can be one of the following colors:
+
+| Console Color | \<Color\> | | Console Color | \<Color\> |
+| --- |---| --- | --- | --- |
+| ConsoleColor.Blue | Blue | | ConsoleColor.DarkBlue | DarkBlue, DKBlue |
+| ConsoleColor.Cyan | Cyan | | ConsoleColor.DarkCyan | DarkCyan, DKCyan |
+| ConsoleColor.Gray | Gray | | ConsoleColor.DarkGray | DarkGray, DKGray |
+| ConsoleColor.Green | Green | | ConsoleColor.DarkGreen | DarkGreen, DKGreen |
+| ConsoleColor.Magenta | Magenta | | ConsoleColor.DarkMagenta | DarkMagenta, DKMagenta |
+| ConsoleColor.Red | Red | | ConsoleColor.DarkRed | DarkRed, DKRed |
+| ConsoleColor.White | White | | ConsoleColor.Black | Black |
+| ConsoleColor.Yellow | Yellow | | ConsoleColor.DarkYellow | DarkYellow, DKYellow |
