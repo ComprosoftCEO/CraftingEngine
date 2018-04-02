@@ -1,12 +1,12 @@
 # CraftingEngine
 Simple terminal crafting game in Visual Basic
 
----
+<br>
 
 ## Overview:
 
 CraftingEngine is a terminal game based on [Little Alchemy](https://littlealchemy.com/) by Jakob Koziol. Programmed in Visual Basic, CrafitngEngine is open source and can be easily modified to add other recipes or features.
-<br>
+
 <br>
 
 ## How to Play:
@@ -18,6 +18,7 @@ The goal of the crafting engine is to discover all 560 elements by combining two
 * Water
 
 Combine two elements together by typing: **\<Element 1\> + \<Element 2\>**, where \<Element\> is the text name of the element (including spaces). *Be sure to type a plus sign.*
+
 <br>
 
 ## Commands
@@ -47,7 +48,6 @@ Combine two elements together by typing: **\<Element 1\> + \<Element 2\>**, wher
 <br>
 
 ## Modifying Recipes
----
 All crafting recipes come directly from the game Little Alchemy, but can be easily modified by editing the file CraftingRecepies.txt. Recipes have the following format:
 * Name,Color:E1+E2;E1+E2;
 
@@ -67,7 +67,6 @@ The element color can be one of the following colors:
 <br>
 
 ## Final Notes
----
 
 * Yes, I know that the word "Recipe" is spelled wrong several places in the code. You can fix it if you want :).
 * This program really needs to be updated to use more classes and modules to isolate code such as saving/loading, printing to the screen, and other functions included in "Main.vb" This is on the list of TODO's.
